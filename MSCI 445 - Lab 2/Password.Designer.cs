@@ -28,27 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Passcode = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.EnterPassword = new System.Windows.Forms.Label();
+            this.SecurityKey = new System.Windows.Forms.TextBox();
             this.Submit = new System.Windows.Forms.Button();
             this.Cancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Passcode
+            // EnterPassword
             // 
-            this.Passcode.AutoSize = true;
-            this.Passcode.Location = new System.Drawing.Point(12, 28);
-            this.Passcode.Name = "Passcode";
-            this.Passcode.Size = new System.Drawing.Size(192, 17);
-            this.Passcode.TabIndex = 0;
-            this.Passcode.Text = "Please Enter Your Password:";
+            this.EnterPassword.AutoSize = true;
+            this.EnterPassword.Location = new System.Drawing.Point(12, 28);
+            this.EnterPassword.Name = "EnterPassword";
+            this.EnterPassword.Size = new System.Drawing.Size(192, 17);
+            this.EnterPassword.TabIndex = 0;
+            this.EnterPassword.Text = "Please Enter Your Password:";
             // 
-            // textBox1
+            // SecurityKey
             // 
-            this.textBox1.Location = new System.Drawing.Point(15, 48);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(489, 22);
-            this.textBox1.TabIndex = 1;
+            this.SecurityKey.Location = new System.Drawing.Point(15, 48);
+            this.SecurityKey.Name = "SecurityKey";
+            this.SecurityKey.Size = new System.Drawing.Size(489, 22);
+            this.SecurityKey.TabIndex = 1;
             // 
             // Submit
             // 
@@ -58,6 +58,7 @@
             this.Submit.TabIndex = 2;
             this.Submit.Text = "Submit";
             this.Submit.UseVisualStyleBackColor = true;
+            this.Submit.Click += new System.EventHandler(this.Submit_Click);
             // 
             // Cancel
             // 
@@ -67,6 +68,7 @@
             this.Cancel.TabIndex = 3;
             this.Cancel.Text = "Cancel";
             this.Cancel.UseVisualStyleBackColor = true;
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
             // Password
             // 
@@ -75,8 +77,8 @@
             this.ClientSize = new System.Drawing.Size(533, 184);
             this.Controls.Add(this.Cancel);
             this.Controls.Add(this.Submit);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.Passcode);
+            this.Controls.Add(this.SecurityKey);
+            this.Controls.Add(this.EnterPassword);
             this.Name = "Password";
             this.Text = "Please Enter Your Password";
             this.ResumeLayout(false);
@@ -86,8 +88,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label Passcode;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label EnterPassword;
+        private System.Windows.Forms.TextBox SecurityKey;
         private System.Windows.Forms.Button Submit;
         private System.Windows.Forms.Button Cancel;
     }

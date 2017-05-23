@@ -29,85 +29,108 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.To = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.Send = new System.Windows.Forms.Button();
+            this.BodyLabel = new System.Windows.Forms.Label();
+            this.SubjectLabel = new System.Windows.Forms.Label();
+            this.FromLabel = new System.Windows.Forms.Label();
+            this.ToLabel = new System.Windows.Forms.Label();
+            this.Body = new System.Windows.Forms.RichTextBox();
+            this.Subject = new System.Windows.Forms.TextBox();
+            this.From = new System.Windows.Forms.TextBox();
+            this.To = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.Send);
+            this.panel1.Controls.Add(this.BodyLabel);
+            this.panel1.Controls.Add(this.SubjectLabel);
+            this.panel1.Controls.Add(this.FromLabel);
+            this.panel1.Controls.Add(this.ToLabel);
+            this.panel1.Controls.Add(this.Body);
+            this.panel1.Controls.Add(this.Subject);
+            this.panel1.Controls.Add(this.From);
             this.panel1.Controls.Add(this.To);
-            this.panel1.Controls.Add(this.richTextBox1);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(596, 456);
             this.panel1.TabIndex = 0;
             // 
-            // textBox1
+            // Send
             // 
-            this.textBox1.Location = new System.Drawing.Point(75, 23);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(287, 22);
-            this.textBox1.TabIndex = 0;
+            this.Send.Location = new System.Drawing.Point(414, 39);
+            this.Send.Name = "Send";
+            this.Send.Size = new System.Drawing.Size(126, 48);
+            this.Send.TabIndex = 8;
+            this.Send.Text = "Send";
+            this.Send.UseVisualStyleBackColor = true;
+            this.Send.Click += new System.EventHandler(this.Send_Click);
             // 
-            // textBox2
+            // BodyLabel
             // 
-            this.textBox2.Location = new System.Drawing.Point(75, 70);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(287, 22);
-            this.textBox2.TabIndex = 1;
+            this.BodyLabel.AutoSize = true;
+            this.BodyLabel.Location = new System.Drawing.Point(25, 173);
+            this.BodyLabel.Name = "BodyLabel";
+            this.BodyLabel.Size = new System.Drawing.Size(44, 17);
+            this.BodyLabel.TabIndex = 7;
+            this.BodyLabel.Text = "Body:";
             // 
-            // textBox3
+            // SubjectLabel
             // 
-            this.textBox3.Location = new System.Drawing.Point(75, 118);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(490, 22);
-            this.textBox3.TabIndex = 2;
+            this.SubjectLabel.AutoSize = true;
+            this.SubjectLabel.Location = new System.Drawing.Point(10, 118);
+            this.SubjectLabel.Name = "SubjectLabel";
+            this.SubjectLabel.Size = new System.Drawing.Size(59, 17);
+            this.SubjectLabel.TabIndex = 6;
+            this.SubjectLabel.Text = "Subject:";
             // 
-            // richTextBox1
+            // FromLabel
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(75, 173);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(490, 258);
-            this.richTextBox1.TabIndex = 3;
-            this.richTextBox1.Text = "";
+            this.FromLabel.AutoSize = true;
+            this.FromLabel.Location = new System.Drawing.Point(25, 70);
+            this.FromLabel.Name = "FromLabel";
+            this.FromLabel.Size = new System.Drawing.Size(44, 17);
+            this.FromLabel.TabIndex = 5;
+            this.FromLabel.Text = "From:";
+            // 
+            // ToLabel
+            // 
+            this.ToLabel.AutoSize = true;
+            this.ToLabel.Location = new System.Drawing.Point(40, 23);
+            this.ToLabel.Name = "ToLabel";
+            this.ToLabel.Size = new System.Drawing.Size(29, 17);
+            this.ToLabel.TabIndex = 4;
+            this.ToLabel.Text = "To:";
+            // 
+            // Body
+            // 
+            this.Body.Location = new System.Drawing.Point(75, 173);
+            this.Body.Name = "Body";
+            this.Body.Size = new System.Drawing.Size(490, 258);
+            this.Body.TabIndex = 3;
+            this.Body.Text = "";
+            // 
+            // Subject
+            // 
+            this.Subject.Location = new System.Drawing.Point(75, 118);
+            this.Subject.Name = "Subject";
+            this.Subject.Size = new System.Drawing.Size(490, 22);
+            this.Subject.TabIndex = 2;
+            // 
+            // From
+            // 
+            this.From.Location = new System.Drawing.Point(75, 70);
+            this.From.Name = "From";
+            this.From.Size = new System.Drawing.Size(287, 22);
+            this.From.TabIndex = 1;
             // 
             // To
             // 
-            this.To.AutoSize = true;
-            this.To.Location = new System.Drawing.Point(40, 26);
+            this.To.Location = new System.Drawing.Point(75, 23);
             this.To.Name = "To";
-            this.To.Size = new System.Drawing.Size(29, 17);
-            this.To.TabIndex = 4;
-            this.To.Text = "To:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 73);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 17);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "From:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 121);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 17);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "From:";
+            this.To.Size = new System.Drawing.Size(287, 22);
+            this.To.TabIndex = 0;
             // 
             // EmailForm
             // 
@@ -127,13 +150,15 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label To;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label FromLabel;
+        private System.Windows.Forms.Label ToLabel;
+        private System.Windows.Forms.RichTextBox Body;
+        private System.Windows.Forms.TextBox Subject;
+        private System.Windows.Forms.TextBox From;
+        private System.Windows.Forms.TextBox To;
+        private System.Windows.Forms.Label SubjectLabel;
+        private System.Windows.Forms.Label BodyLabel;
+        private System.Windows.Forms.Button Send;
     }
 }
 

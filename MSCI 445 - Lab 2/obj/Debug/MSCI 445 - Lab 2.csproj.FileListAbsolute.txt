@@ -1,1 +1,10 @@
 c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 2\MSCI 445 - Lab 2\bin\Debug\MSCI 445 - Lab 2.exe.config
+c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 2\MSCI 445 - Lab 2\bin\Debug\MSCI 445 - Lab 2.exe
+c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 2\MSCI 445 - Lab 2\bin\Debug\MSCI 445 - Lab 2.pdb
+c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 2\MSCI 445 - Lab 2\obj\Debug\MSCI 445 - Lab 2.csprojResolveAssemblyReference.cache
+c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 2\MSCI 445 - Lab 2\obj\Debug\MSCI_445___Lab_2.EmailForm.resources
+c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 2\MSCI 445 - Lab 2\obj\Debug\MSCI_445___Lab_2.Password.resources
+c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 2\MSCI 445 - Lab 2\obj\Debug\MSCI_445___Lab_2.Properties.Resources.resources
+c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 2\MSCI 445 - Lab 2\obj\Debug\MSCI 445 - Lab 2.csproj.GenerateResource.Cache
+c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 2\MSCI 445 - Lab 2\obj\Debug\MSCI 445 - Lab 2.exe
+c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 2\MSCI 445 - Lab 2\obj\Debug\MSCI 445 - Lab 2.pdb
