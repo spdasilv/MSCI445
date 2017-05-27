@@ -22,46 +22,60 @@ namespace MSCI_445___Lab_2
         private string Body { get; set; }
         public Password(string from, string to, string subject, string body)
         {
+            // Initializes variables according the field names of the fields used in email form
             InitializeComponent();
             To = to;
             From = from;
             Subject = subject;
             Body = body;
-            PasswordCheck = "Shivmsci445";
+            PasswordCheck = "mscilab2445";
             UserCheck = "shivammsci445@gmail.com";
         }
-
         private void Submit_Click(object sender, EventArgs e)
         {
             try
             {
-                if (From == UserCheck && PasswordCheck == SecurityKey.Text)
+                // Trying to establish a connection if the 'From' email and 'Password' are input correctly
+                if (PasswordCheck == SecurityKey.Text)
                 {
-                    SmtpClient client = new SmtpClient("smtp.gmail.com");
-                    client.Port = 587;
-                    client.EnableSsl = true;
-                    client.Timeout = 10000;
-                    client.DeliveryMethod = SmtpDeliveryMethod.Network;
-                    client.UseDefaultCredentials = false;
-                    client.Credentials = new NetworkCredential(From, SecurityKey.Text);
-                    MailMessage msg = new MailMessage();
-                    msg.To.Add(To);
-                    msg.From = new MailAddress(From);
-                    msg.Subject = Subject;
-                    msg.Body = Body;
-                    client.Send(msg);
-                    MessageBox.Show("Message Sent!!!");
+                    if (From == UserCheck && PasswordCheck == SecurityKey.Text)
+                    {
+                        SmtpClient client = new SmtpClient("smtp.gmail.com");
+                        client.Port = 587;
+                        client.EnableSsl = true;
+                        client.Timeout = 10000;
+                        client.DeliveryMethod = SmtpDeliveryMethod.Network;
+                        client.UseDefaultCredentials = false;
+                        client.Credentials = new NetworkCredential(From, SecurityKey.Text);
+                        MailMessage msg = new MailMessage();
+                        msg.To.Add(To);
+                        msg.From = new MailAddress(From);
+                        msg.Subject = Subject;
+                        msg.Body = Body;
+                        client.Send(msg);
+                        MessageBox.Show("Message Sent!");
+                        this.Close();
+                    }
+                }
+                else {
+                    MessageBox.Show("Incorrect Password");
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
+                // Displaying any error if it occurs
                 MessageBox.Show("An error occurred: " + ex);
             }
         }
-
+        // Closing the password box when the "X" button is clicked
         private void Cancel_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+        // Masking the password text
+        private void SecurityKey_TextChanged(object sender, EventArgs e)
+        {
+            SecurityKey.PasswordChar = '*';
         }
     }
 }

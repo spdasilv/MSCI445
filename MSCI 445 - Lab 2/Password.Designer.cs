@@ -37,24 +37,28 @@
             // EnterPassword
             // 
             this.EnterPassword.AutoSize = true;
-            this.EnterPassword.Location = new System.Drawing.Point(12, 28);
+            this.EnterPassword.Location = new System.Drawing.Point(9, 23);
+            this.EnterPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.EnterPassword.Name = "EnterPassword";
-            this.EnterPassword.Size = new System.Drawing.Size(192, 17);
+            this.EnterPassword.Size = new System.Drawing.Size(144, 13);
             this.EnterPassword.TabIndex = 0;
             this.EnterPassword.Text = "Please Enter Your Password:";
             // 
             // SecurityKey
             // 
-            this.SecurityKey.Location = new System.Drawing.Point(15, 48);
+            this.SecurityKey.Location = new System.Drawing.Point(11, 39);
+            this.SecurityKey.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SecurityKey.Name = "SecurityKey";
-            this.SecurityKey.Size = new System.Drawing.Size(489, 22);
+            this.SecurityKey.Size = new System.Drawing.Size(368, 20);
             this.SecurityKey.TabIndex = 1;
+            this.SecurityKey.TextChanged += new System.EventHandler(this.SecurityKey_TextChanged);
             // 
             // Submit
             // 
-            this.Submit.Location = new System.Drawing.Point(68, 114);
+            this.Submit.Location = new System.Drawing.Point(51, 93);
+            this.Submit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Submit.Name = "Submit";
-            this.Submit.Size = new System.Drawing.Size(117, 36);
+            this.Submit.Size = new System.Drawing.Size(88, 29);
             this.Submit.TabIndex = 2;
             this.Submit.Text = "Submit";
             this.Submit.UseVisualStyleBackColor = true;
@@ -62,9 +66,10 @@
             // 
             // Cancel
             // 
-            this.Cancel.Location = new System.Drawing.Point(323, 114);
+            this.Cancel.Location = new System.Drawing.Point(242, 93);
+            this.Cancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Cancel.Name = "Cancel";
-            this.Cancel.Size = new System.Drawing.Size(117, 36);
+            this.Cancel.Size = new System.Drawing.Size(88, 29);
             this.Cancel.TabIndex = 3;
             this.Cancel.Text = "Cancel";
             this.Cancel.UseVisualStyleBackColor = true;
@@ -72,13 +77,14 @@
             // 
             // Password
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(533, 184);
+            this.ClientSize = new System.Drawing.Size(400, 150);
             this.Controls.Add(this.Cancel);
             this.Controls.Add(this.Submit);
             this.Controls.Add(this.SecurityKey);
             this.Controls.Add(this.EnterPassword);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Password";
             this.Text = "Please Enter Your Password";
             this.ResumeLayout(false);
