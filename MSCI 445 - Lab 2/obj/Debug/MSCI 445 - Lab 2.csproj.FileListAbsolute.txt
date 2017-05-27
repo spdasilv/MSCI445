@@ -8,3 +8,13 @@ c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 2\MSCI 44
 c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 2\MSCI 445 - Lab 2\obj\Debug\MSCI 445 - Lab 2.csproj.GenerateResource.Cache
 c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 2\MSCI 445 - Lab 2\obj\Debug\MSCI 445 - Lab 2.exe
 c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 2\MSCI 445 - Lab 2\obj\Debug\MSCI 445 - Lab 2.pdb
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 2\bin\Debug\MSCI 445 - Lab 2.exe.config
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 2\obj\Debug\MSCI 445 - Lab 2.exe
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 2\obj\Debug\MSCI 445 - Lab 2.pdb
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 2\bin\Debug\MSCI 445 - Lab 2.exe
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 2\bin\Debug\MSCI 445 - Lab 2.pdb
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 2\obj\Debug\MSCI 445 - Lab 2.csprojResolveAssemblyReference.cache
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 2\obj\Debug\MSCI_445___Lab_2.EmailForm.resources
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 2\obj\Debug\MSCI_445___Lab_2.Password.resources
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 2\obj\Debug\MSCI_445___Lab_2.Properties.Resources.resources
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 2\obj\Debug\MSCI 445 - Lab 2.csproj.GenerateResource.Cache
