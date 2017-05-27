@@ -17,6 +17,7 @@ namespace MSCI_445___Lab_2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            // Running the Email Form
             Application.Run(new EmailForm());
         }
     }

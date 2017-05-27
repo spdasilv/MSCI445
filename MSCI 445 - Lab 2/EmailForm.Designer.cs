@@ -52,18 +52,16 @@
             this.panel1.Controls.Add(this.Subject);
             this.panel1.Controls.Add(this.From);
             this.panel1.Controls.Add(this.To);
-            this.panel1.Location = new System.Drawing.Point(9, 10);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(447, 370);
+            this.panel1.Size = new System.Drawing.Size(596, 456);
             this.panel1.TabIndex = 0;
             // 
             // Send
             // 
-            this.Send.Location = new System.Drawing.Point(310, 32);
-            this.Send.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Send.Location = new System.Drawing.Point(414, 39);
             this.Send.Name = "Send";
-            this.Send.Size = new System.Drawing.Size(94, 39);
+            this.Send.Size = new System.Drawing.Size(126, 48);
             this.Send.TabIndex = 8;
             this.Send.Text = "Send";
             this.Send.UseVisualStyleBackColor = true;
@@ -72,85 +70,74 @@
             // BodyLabel
             // 
             this.BodyLabel.AutoSize = true;
-            this.BodyLabel.Location = new System.Drawing.Point(19, 141);
-            this.BodyLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BodyLabel.Location = new System.Drawing.Point(25, 173);
             this.BodyLabel.Name = "BodyLabel";
-            this.BodyLabel.Size = new System.Drawing.Size(34, 13);
+            this.BodyLabel.Size = new System.Drawing.Size(44, 17);
             this.BodyLabel.TabIndex = 7;
             this.BodyLabel.Text = "Body:";
             // 
             // SubjectLabel
             // 
             this.SubjectLabel.AutoSize = true;
-            this.SubjectLabel.Location = new System.Drawing.Point(8, 96);
-            this.SubjectLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.SubjectLabel.Location = new System.Drawing.Point(10, 118);
             this.SubjectLabel.Name = "SubjectLabel";
-            this.SubjectLabel.Size = new System.Drawing.Size(46, 13);
+            this.SubjectLabel.Size = new System.Drawing.Size(59, 17);
             this.SubjectLabel.TabIndex = 6;
             this.SubjectLabel.Text = "Subject:";
             // 
             // FromLabel
             // 
             this.FromLabel.AutoSize = true;
-            this.FromLabel.Location = new System.Drawing.Point(19, 57);
-            this.FromLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.FromLabel.Location = new System.Drawing.Point(25, 70);
             this.FromLabel.Name = "FromLabel";
-            this.FromLabel.Size = new System.Drawing.Size(33, 13);
+            this.FromLabel.Size = new System.Drawing.Size(44, 17);
             this.FromLabel.TabIndex = 5;
             this.FromLabel.Text = "From:";
             // 
             // ToLabel
             // 
             this.ToLabel.AutoSize = true;
-            this.ToLabel.Location = new System.Drawing.Point(30, 19);
-            this.ToLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ToLabel.Location = new System.Drawing.Point(40, 23);
             this.ToLabel.Name = "ToLabel";
-            this.ToLabel.Size = new System.Drawing.Size(23, 13);
+            this.ToLabel.Size = new System.Drawing.Size(29, 17);
             this.ToLabel.TabIndex = 4;
             this.ToLabel.Text = "To:";
             // 
             // Body
             // 
-            this.Body.Location = new System.Drawing.Point(56, 141);
-            this.Body.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Body.Location = new System.Drawing.Point(75, 173);
             this.Body.Name = "Body";
-            this.Body.Size = new System.Drawing.Size(368, 210);
+            this.Body.Size = new System.Drawing.Size(490, 258);
             this.Body.TabIndex = 3;
             this.Body.Text = "";
             // 
             // Subject
             // 
-            this.Subject.Location = new System.Drawing.Point(56, 96);
-            this.Subject.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Subject.Location = new System.Drawing.Point(75, 118);
             this.Subject.Name = "Subject";
-            this.Subject.Size = new System.Drawing.Size(368, 20);
+            this.Subject.Size = new System.Drawing.Size(490, 22);
             this.Subject.TabIndex = 2;
-            this.Subject.TextChanged += new System.EventHandler(this.Subject_TextChanged);
             // 
             // From
             // 
-            this.From.Location = new System.Drawing.Point(56, 57);
-            this.From.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.From.Location = new System.Drawing.Point(75, 70);
             this.From.Name = "From";
-            this.From.Size = new System.Drawing.Size(216, 20);
+            this.From.Size = new System.Drawing.Size(287, 22);
             this.From.TabIndex = 1;
             // 
             // To
             // 
-            this.To.Location = new System.Drawing.Point(56, 19);
-            this.To.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.To.Location = new System.Drawing.Point(75, 23);
             this.To.Name = "To";
-            this.To.Size = new System.Drawing.Size(216, 20);
+            this.To.Size = new System.Drawing.Size(287, 22);
             this.To.TabIndex = 0;
-            this.To.TextChanged += new System.EventHandler(this.To_TextChanged);
             // 
             // EmailForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(465, 390);
+            this.ClientSize = new System.Drawing.Size(620, 480);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "EmailForm";
             this.Text = "Email Form";
             this.Load += new System.EventHandler(this.EmailForm_Load);
