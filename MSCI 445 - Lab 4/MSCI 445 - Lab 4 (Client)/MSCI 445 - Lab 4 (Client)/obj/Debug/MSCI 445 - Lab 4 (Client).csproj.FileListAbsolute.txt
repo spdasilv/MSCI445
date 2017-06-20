@@ -4,3 +4,9 @@ c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 4 (Client
 c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 4 (Client)\MSCI 445 - Lab 4 (Client)\obj\Debug\MSCI 445 - Lab 4 (Client).exe
 c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 4 (Client)\MSCI 445 - Lab 4 (Client)\obj\Debug\MSCI 445 - Lab 4 (Client).pdb
 c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 4 (Client)\MSCI 445 - Lab 4 (Client)\obj\Debug\MSCI 445 - Lab 4 (Client).csprojResolveAssemblyReference.cache
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 4\MSCI 445 - Lab 4 (Client)\MSCI 445 - Lab 4 (Client)\bin\Debug\MSCI 445 - Lab 4 (Client).exe.config
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 4\MSCI 445 - Lab 4 (Client)\MSCI 445 - Lab 4 (Client)\obj\Debug\MSCI 445 - Lab 4 (Client).exe
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 4\MSCI 445 - Lab 4 (Client)\MSCI 445 - Lab 4 (Client)\obj\Debug\MSCI 445 - Lab 4 (Client).pdb
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 4\MSCI 445 - Lab 4 (Client)\MSCI 445 - Lab 4 (Client)\bin\Debug\MSCI 445 - Lab 4 (Client).exe
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 4\MSCI 445 - Lab 4 (Client)\MSCI 445 - Lab 4 (Client)\bin\Debug\MSCI 445 - Lab 4 (Client).pdb
+C:\Users\Shivam Sharma\Documents\GitHub\MSCI445\MSCI 445 - Lab 4\MSCI 445 - Lab 4 (Client)\MSCI 445 - Lab 4 (Client)\obj\Debug\MSCI 445 - Lab 4 (Client).csprojResolveAssemblyReference.cache
