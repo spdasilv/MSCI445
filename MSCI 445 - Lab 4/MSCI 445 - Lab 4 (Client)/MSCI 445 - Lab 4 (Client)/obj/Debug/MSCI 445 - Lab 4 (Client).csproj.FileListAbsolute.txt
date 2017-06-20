@@ -1,0 +1,6 @@
+c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 4 (Client)\MSCI 445 - Lab 4 (Client)\bin\Debug\MSCI 445 - Lab 4 (Client).exe.config
+c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 4 (Client)\MSCI 445 - Lab 4 (Client)\bin\Debug\MSCI 445 - Lab 4 (Client).exe
+c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 4 (Client)\MSCI 445 - Lab 4 (Client)\bin\Debug\MSCI 445 - Lab 4 (Client).pdb
+c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 4 (Client)\MSCI 445 - Lab 4 (Client)\obj\Debug\MSCI 445 - Lab 4 (Client).exe
+c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 4 (Client)\MSCI 445 - Lab 4 (Client)\obj\Debug\MSCI 445 - Lab 4 (Client).pdb
+c:\users\stefanno\documents\visual studio 2015\Projects\MSCI 445 - Lab 4 (Client)\MSCI 445 - Lab 4 (Client)\obj\Debug\MSCI 445 - Lab 4 (Client).csprojResolveAssemblyReference.cache
